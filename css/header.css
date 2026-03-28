@@ -1,3 +1,24 @@
-.cabecalho{
 
+.cabecalho{
+    background-image: url('../css/Logotipo-nextflim.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-position: 18% 61%;
+    height: 210px; 
+    width: 100%;
+    margin-top: -20px;
+    border-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    margin-right: 130px;
+    margin-top: 40px;
+    gap: 35px;
+    font-size: 1.2rem;
 }

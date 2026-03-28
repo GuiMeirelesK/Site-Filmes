@@ -1,0 +1,39 @@
+.fileira-genero{
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.titulo-genero{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.container-filmes{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+}
+.container-filmes::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius: 10px;
+}
+.card-filme{
+    flex:0 0 280px;
+    text-align: center;
+    padding-inline-end: 100px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.card-filme img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.card-filme img:hover{
+    transform:scale(1.10);
+    border-radius: 8px;
+}
+

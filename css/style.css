@@ -1,6 +1,8 @@
 .esquerda{
     overflow-y: auto;
     flex:3;
+    background-color: #323232;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(0,0,0,0.2));
 }
 .fileira-genero{
     margin-bottom: 40px;
@@ -9,9 +11,17 @@
 .titulo-genero{
     font-size: 1.6rem;
     margin-bottom: 15px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .titulo-filme{
     font-size: 1.2rem;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 .container-filmes{
     display: flex;
@@ -30,6 +40,7 @@
     padding-inline-end: 100px;
     padding-top: 30px;
     padding-left: 10px;
+
 }
 .card-filme img{
     aspect-ratio: 16/9;
@@ -42,6 +53,20 @@
 .card-filme img:hover{
     transform:scale(1.10);
     border-radius: 8px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: top;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgba(12, 9, 9, 0.1);
+    border-radius: 10px;
 }
 
 

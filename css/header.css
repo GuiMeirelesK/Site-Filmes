@@ -1,15 +1,24 @@
 
 .cabecalho{
-    background-image: url('../css/Logotipo-nextflim.jpeg');
     background-size: cover;
-    background-position: center;
-    background-position: 18% 61%;
-    height: 200px; 
     width: 100%;
-    margin-top: -20px;
-    border-bottom: 2px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid #025959;
+    background: #012840;
+    background: linear-gradient(90deg, rgba(1, 40, 64, 1) 0%, rgba(2, 24, 38, 1) 60%, rgba(2, 24, 38, 1) 0%, rgba(2, 24, 38, 1) 100%);
+}
+.texto_logo{
+    font-family: 'Sua-Fonte-Serif', serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: transparent; 
+    background: linear-gradient(90deg, #FFFFFF, #CFD8DC); 
+    -webkit-background-clip: text;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    margin: 30px;
+    margin-top: 40px;
 }
 .menu{
     display: flex;
@@ -17,20 +26,24 @@
     width: 100px;
     height: 50px;
     padding: 20px;
-    margin-right: 190px;
+    margin-right: 210px;
     margin-top: 50px;
     gap: 35px;
     font-size: 1.2rem;
+    color: #FFFFFF;
 }
 nav a{
     text-decoration: none;
-    color: rgb(133, 132, 132);
+    color: #FFFFFF;
 }
 nav a:hover{
     text-decoration: underline; 
-    color: gainsboro;
+    color: #7C838A;
 }
 .material-symbols-outlined{
-    color: gainsboro;
+    color: #FFFFFF;
     cursor: pointer;
+}
+.material-symbols-outlined:hover{
+    color: #7C838A;;
 }

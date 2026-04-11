@@ -1,27 +1,28 @@
 .esquerda{
     overflow-y: auto;
     flex:3;
-    background-color: #323232;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(0,0,0,0.2));
 }
 .fileira-genero{
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     padding: 20px;
+    box-shadow: 10px 10px 20px rgba(2, 24, 38, 0.8);
 }
 .titulo-genero{
     font-size: 1.6rem;
     margin-bottom: 15px;
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #FFFFFF;
 }
 .titulo-filme{
     font-size: 1.2rem;
     font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #CFD8DC;
 }
 .container-filmes{
     display: flex;
@@ -40,7 +41,6 @@
     padding-inline-end: 100px;
     padding-top: 30px;
     padding-left: 10px;
-
 }
 .card-filme img{
     aspect-ratio: 16/9;
@@ -49,21 +49,23 @@
     width: 100%;
     border-radius: 8px;
     transition: 0.4s;
+    border: 2px solid #7C838A;
+    box-shadow: 10px 10px 20px rgba(2, 24, 38, 0.8);
+
 }
 .card-filme img:hover{
     transform:scale(1.10);
     border-radius: 8px;
+    border: 3px solid rgba(15, 140, 140, 0.3);
+    box-shadow: 10px 10px 20px rgba(2, 24, 38, 0.8);
 }
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
 }
-
 ::-webkit-scrollbar-track {
     background: top;
 }
-
-
 ::-webkit-scrollbar-thumb {
     background: rgba(12, 9, 9, 0.1);
     border-radius: 10px;

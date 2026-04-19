@@ -19,16 +19,15 @@ body, html {
 }
 .pe{
   display: flex;
-  height: 250px;
+  height: 220px;
   width: 100%;
 }
 footer nav {
     display: flex;
     justify-content: center;
     gap: 25px;
-    padding: 12px;
-    margin-bottom: 10px;
-    padding-top: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 footer a {
     text-decoration: none;

@@ -3,8 +3,9 @@
     flex:3;
 }
 .fileira-genero{
+    margin-top: -10px;
     margin-bottom: 15px;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 10px 10px 20px rgba(2, 24, 38, 0.8);
 }
 .titulo-genero{
@@ -43,6 +44,7 @@
     padding-left: 10px;
 }
 .card-filme img{
+    height: 135px;
     aspect-ratio: 16/9;
     object-fit: cover;
     object-position: center;
@@ -54,6 +56,7 @@
 
 }
 .card-filme img:hover{
+    height: 140px;
     transform:scale(1.10);
     border-radius: 8px;
     border: 3px solid rgba(15, 140, 140, 0.3);

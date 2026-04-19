@@ -1,288 +1,284 @@
 <!DOCTYPE html>
-<html lang="pt/br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=account_circle" />
-    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
-    <title>Recomendação de Filmes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Bungee&family=Changa+One:ital@0;1&family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+    <title>NEXTFILM - Recomendação de Filmes</title>
 </head>
 <body>
-    <header class="cabecalho">
+
+    <header class="cabecalho d-flex flex-column flex-lg-row justify-content-between align-items-center px-4">
         <div class="logo">
-            <h1 class="texto_logo">NEXTFILM</h1>
+            <h1 class="texto_logo m-2 mt-3">NEXTFILM</h1>
         </div>
         <nav>
-            
-            <ul class="menu">
+            <ul class="menu d-flex list-unstyled m-0 gap-3">
                 <li><a href="">Sobre</a></li>
                 <li><a href="">Favoritos</a></li>
                 <li><a href="">Ajuda</a></li>
-                <span class="material-symbols-outlined">account_circle</span> 
+                <span class="material-symbols-outlined fs-2">account_circle</span> 
             </ul>
-           
-</span>
         </nav>
     </header>
-    <section class="container">
-            <section class="esquerda">
-            <section class="fileira-genero">
+
+    <main class="container-fluid wrapper-principal">
+        <div class="row g-0">
+            
+            <section class="esquerda col-12 col-lg-9 p-3 order-2 order-lg-1">
+                
+                <section class="fileira-genero">
                     <h2 class="titulo-genero">AÇÃO</h2>
-                    <div class="container-filmes">
+                    <div class="container-filmes d-flex">
                         <div class="card-filme">
-                            <img src="images/vingadores.webp" alt="vingadores">
+                            <img src="images/vingadores.webp" class="img-fluid" alt="vingadores">
                             <p class="titulo-filme">Vingadores Ultimato</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/james_bond.webp" alt="bond-007">
-                            <p class="titulo-filme">007-Operação Skyfall</p>
+                            <img src="images/james_bond.webp" class="img-fluid" alt="bond">
+                            <p class="titulo-filme">007-Skyfall</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/the_batman.webp" alt="goat">
+                            <img src="images/the_batman.webp" class="img-fluid" alt="batman">
                             <p class="titulo-filme">The Batman</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/Bastardos-Inglorios.webp" alt="bastardos">
-                            <p class="titulo-filme">Bastárdos Inglórios</p>
+                            <img src="images/Bastardos-Inglorios.webp" class="img-fluid" alt="bastardos">
+                            <p class="titulo-filme">Bastardos Inglórios</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/john-wick.webp" alt="john wick">
+                            <img src="images/john-wick.webp" class="img-fluid" alt="john-wick">
                             <p class="titulo-filme">John Wick</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/resgate-filme.webp" alt="resgate">
+                            <img src="images/Em-Ritmo-de-Fuga.webp" class="img-fluid" alt="ritmo-fuga">
+                            <p class="titulo-filme">Ritmo de Fuga</p>
+                        </div>
+                        <div class="card-filme">
+                            <img src="images/resgate-filme.webp" class="img-fluid" alt="resgate">
                             <p class="titulo-filme">Resgate</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/top_gun.webp" alt="Top-gun">
+                            <img src="images/top_gun.webp" class="img-fluid" alt="top-gun">
                             <p class="titulo-filme">Top Gun Maverick</p>
                         </div>
-                        <div class="card-filme">
-                            <img src="images/Em-Ritmo-de-Fuga.webp" alt="fuga">
-                            <p class="titulo-filme">Em Ritmo de Fuga</p>
-                        </div>
                     </div>
-            </section>
+                </section>
                 <section class="fileira-genero">
                     <h2 class="titulo-genero">SUSPENSE</h2>
-                    <div class="container-filmes">
+                    <div class="container-filmes d-flex">
                         <div class="card-filme">
-                            <img src="images/Seven.webp" alt="se7en">
+                            <img src="images/Seven.webp" class="img-fluid" alt="se7en">
                             <p class="titulo-filme">Se7en</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/Iha_do_medo.webp" alt="ilha">
-                            <p class="titulo-filme">Ilha do Medo</p>
+                            <img src="images/Iha_do_medo.webp" class="img-fluid" alt="ilha">
+                            <p class="titulo-filme">Ilha do medo</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/os-suspeitos.webp" alt="suspeitos">
+                            <img src="images/os-suspeitos.webp" class="img-fluid" alt="suspeitos">
                             <p class="titulo-filme">Os Suspeitos</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/corra.webp" alt="corra">
+                            <img src="images/corra.webp" class="img-fluid" alt="corra">
                             <p class="titulo-filme">Corra</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/um-lugar-silencioso.webp" alt="silencioso">
-                            <p class="titulo-filme">Um Lugar Silêncioso</p>
+                            <img src="images/um-lugar-silencioso.webp" class="img-fluid" alt="lugar-silencioso">
+                            <p class="titulo-filme">Um Lugar Silencioso</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/nos.webp" alt="nos">
-                            <p class="titulo-filme">Nos</p>
+                            <img src="images/nos.webp" class="img-fluid" alt="nos">
+                            <p class="titulo-filme">Nós</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/o-sexto-sentido.webp" alt="sexto-sentido">
-                            <p class="titulo-filme">O Sexto Sentido</p>
-                        </div>
-                        <div class="card-filme">
-                            <img src="images/pecadores.webp" alt="pecadores">
+                            <img src="images/pecadores.webp" class="img-fluid" alt="pecadores">
                             <p class="titulo-filme">Pecadores</p>
                         </div>
-                    </div>
-            </section>
-                <section class="fileira-genero">
-                    <h2 class="titulo-genero">TERROR</h2>
-                    <div class="container-filmes">
                         <div class="card-filme">
-                            <img src="images/invocacao_do_mal.webp" alt="invocacao">
+                            <img src="images/o-sexto-sentido.webp" class="img-fluid" alt="sexto-sentido">
+                            <p class="titulo-filme">O Sexto Sentido</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="fileira-genero">
+                    <h2 class="titulo-genero">Terror</h2>
+                    <div class="container-filmes d-flex">
+                        <div class="card-filme">
+                            <img src="images/invocacao_do_mal.webp" class="img-fluid" alt="invocacao">
                             <p class="titulo-filme">Invocação do Mal</p>
                         </div>
-                        <div class="card-filme">
-                            <img src="images/pennywise.webp" alt="it">
+                         <div class="card-filme">
+                            <img src="images/pennywise.webp" class="img-fluid" alt="it">
                             <p class="titulo-filme">It a Coisa</p>
                         </div>
-                        <div class="card-filme">
-                            <img src="images/a-freira.webp" alt="freira">
-                            <p class="titulo-filme">A Freira</p>
+                         <div class="card-filme">
+                            <img src="images/a-freira.webp" class="img-fluid" alt="freira">
+                            <p class="titulo-filme">A freira</p>
                         </div>
-                        <div class="card-filme">
-                            <img src="images/atividade-paranormal.webp" alt="atividade">
+                         <div class="card-filme">
+                            <img src="images/atividade-paranormal.webp" class="img-fluid" alt="paranormal">
                             <p class="titulo-filme">Atividade Paranormal</p>
                         </div>
-                        <div class="card-filme">
-                            <img src="images/a-bruxa-de-blair.webp" alt="bruxa-de-blair">
-                            <p class="titulo-filme">Bruxa de Blair</p>
+                         <div class="card-filme">
+                            <img src="images/a-bruxa-de-blair.webp" class="img-fluid" alt="bruxa-blayr">
+                            <p class="titulo-filme">A Bruxa de Blayr</p>
                         </div>
-                        <div class="card-filme">
-                            <img src="images/a-bruxa.webp" alt="bruxa">
+                         <div class="card-filme">
+                            <img src="images/a-bruxa.webp" class="img-fluid" alt="bruxa">
                             <p class="titulo-filme">A Bruxa</p>
                         </div>
-                        <div class="card-filme">
-                            <img src="images/halloween-filme.webp" alt="halloween">
+                         <div class="card-filme">
+                            <img src="images/halloween-filme.webp" class="img-fluid" alt="halloween">
                             <p class="titulo-filme">Halloween</p>
                         </div>
-                        <div class="card-filme">
-                            <img src="images/panico.webp" alt="panico">
-                            <p class="titulo-filme">Panico 5</p>
+                         <div class="card-filme">
+                            <img src="images/panico.webp" class="img-fluid" alt="panico">
+                            <p class="titulo-filme">Pânico 6</p>
                         </div>
                     </div>
-            </section>
+                </section>
                 <section class="fileira-genero">
-                    <h2 class="titulo-genero">ROMANCE</h2>
-                    <div class="container-filmes">
+                    <h2 class="titulo-genero">Comédia</h2>
+                    <div class="container-filmes d-flex">
                         <div class="card-filme">
-                            <img src="images/como-perder-um-homem-em-10-dias.webp" alt="como-perder">
-                            <p class="titulo-filme">Como Perder um Homem em 10 dias</p>
-                        </div>
-                        <div class="card-filme">
-                            <img src="images/10-coisas-que-eu-odeio.webp" alt="10-coisas">
-                            <p class="titulo-filme">10 Coisas que eu odeio em você</p>
-                        </div>
-                        <div class="card-filme">
-                            <img src="images/o-diario-de-uma-paixao.webp" alt="diario">
-                            <p class="titulo-filme">O Diário de uma Paixão</p>
-                        </div>
-                        <div class="card-filme">
-                            <img src="images/questão-de-tempo.webp" alt="questao-de-tempo">
-                            <p class="titulo-filme">Questão de Tempo</p>
-                        </div>
-                        <div class="card-filme">
-                            <img src="images/orgulho-e-preconceito.webp" alt="orgulho">
-                            <p class="titulo-filme">Orgulho e Preconceito</p>
-                        </div>
-                        <div class="card-filme">
-                            <img src="images/la-la-land.webp" alt="lalala">
-                            <p class="titulo-filme">La La Land</p>
-                        </div>
-                        <div class="card-filme">
-                            <img src="images/simplesmente-acontece.webp" alt="simplesmente">
-                            <p class="titulo-filme">Simplesmente Acontece</p>
-                        </div>
-                        <div class="card-filme">
-                            <img src="images/como-eu-era-antes.webp" alt="como-eu-era-antes">
-                            <p class="titulo-filme">Como Eu Era Antes de Você</p>
-                        </div>
-                    </div>
-            </section>
-                <section class="fileira-genero">
-                    <h2 class="titulo-genero">COMÉDIA</h2>
-                    <div class="container-filmes">
-                        <div class="card-filme">
-                            <img src="images/as-branquelas.webp" alt="branquelas">
+                            <img src="images/as-branquelas.webp" class="img-fluid" alt="branquelas">
                             <p class="titulo-filme">As Branquelas</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/deadpool.webp" alt="deadpool">
+                            <img src="images/deadpool.webp" class="img-fluid" alt="deadpool">
                             <p class="titulo-filme">Deadpool</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/gente-grande.webp" alt="gente-grande">
+                            <img src="images/gente-grande.webp" class="img-fluid" alt="gente-grande">
                             <p class="titulo-filme">Gente Grande</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/trem_bala.webp" alt="trem">
+                            <img src="images/trem_bala.webp" class="img-fluid" alt="trem-bala">
                             <p class="titulo-filme">Trem Bala</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/se-beber-nao-case.webp" alt="se-beber">
-                            <p class="titulo-filme">Se Beber Não Case</p>
+                            <img src="images/se-beber-nao-case.webp" class="img-fluid" alt="se-beber">
+                            <p class="titulo-filme">Se beber não case</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/todo-mundo-em-panico.webp" alt="todo-mundo-em-panico">
+                            <img src="images/todo-mundo-em-panico.webp" class="img-fluid" alt="todo-mundo-em-panico">
                             <p class="titulo-filme">Todo Mundo em Pânico</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/bad-boys.webp" alt="bad-boys">
+                            <img src="images/bad-boys.webp" class="img-fluid" alt="bad-boys">
                             <p class="titulo-filme">Bad Boys</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/jumanji.webp" alt="jumanji">
+                            <img src="images/jumanji.webp" class="img-fluid" alt="jumanji">
                             <p class="titulo-filme">Jumanji</p>
                         </div>
                     </div>
-            </section>
+                </section>
                 <section class="fileira-genero">
-                    <h2 class="titulo-genero">FICÇÃO CIENTIFICA</h2>
-                    <div class="container-filmes">
+                    <h2 class="titulo-genero">Romance</h2>
+                    <div class="container-filmes d-flex">
                         <div class="card-filme">
-                            <img src="images/O-Projeto-Adam.webp" alt="projeto">
+                            <img src="images/como-perder-um-homem-em-10-dias.webp" class="img-fluid" alt="como-perder">
+                            <p class="titulo-filme">Como perder um homem em 10 dias</p>
+                        </div>
+                        <div class="card-filme">
+                            <img src="images/10-coisas-que-eu-odeio.webp" class="img-fluid" alt="dez-coisas-que-odeio">
+                            <p class="titulo-filme">10 Coisas que eu odeio em você</p>
+                        </div>
+                        <div class="card-filme">
+                            <img src="images/o-diario-de-uma-paixao.webp" class="img-fluid" alt="diario">
+                            <p class="titulo-filme">Diário de uma Paixão</p>
+                        </div>
+                        <div class="card-filme">
+                            <img src="images/questão-de-tempo.webp" class="img-fluid" alt="questao-tempo">
+                            <p class="titulo-filme">Questão de Tempo</p>
+                        </div>
+                        <div class="card-filme">
+                            <img src="images/orgulho-e-preconceito.webp" class="img-fluid" alt="orgulho-preconceito">
+                            <p class="titulo-filme">Orgulho e Preconceito</p>
+                        </div>
+                        <div class="card-filme">
+                            <img src="images/la-la-land.webp" class="img-fluid" alt="lalala">
+                            <p class="titulo-filme">La La Land</p>
+                        </div>
+                        <div class="card-filme">
+                            <img src="images/simplesmente-acontece.webp" class="img-fluid" alt="simplesmente-acontece">
+                            <p class="titulo-filme">Simplesmente Acontece</p>
+                        </div>
+                        <div class="card-filme">
+                            <img src="images/como-eu-era-antes.webp" class="img-fluid" alt="como-eu-era">
+                            <p class="titulo-filme">Como eu era antes de você</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="fileira-genero">
+                    <h2 class="titulo-genero">Ficção Cientifica</h2>
+                    <div class="container-filmes d-flex">
+                        <div class="card-filme">
+                            <img src="images/O-Projeto-Adam.webp" class="img-fluid" alt="projeto-adam">
                             <p class="titulo-filme">Projeto Adam</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/duna.webp" alt="duna">
+                            <img src="images/duna.webp" class="img-fluid" alt="duna">
                             <p class="titulo-filme">Duna</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/interestelar.webp" alt="interestelar">
+                            <img src="images/interestelar.webp" class="img-fluid" alt="interestelar">
                             <p class="titulo-filme">Interestelar</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/star-wars-III.webp" alt="star-wars">
-                            <p class="titulo-filme">Star-Wars-III</p>
+                            <img src="images/star-wars-III.webp" class="img-fluid" alt="star-warsIII">
+                            <p class="titulo-filme">Star Wars III</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/de-volta-para-o-futuro.webp" alt="de-volta">
-                            <p class="titulo-filme">De Volta Para o Futuro</p>
+                            <img src="images/de-volta-para-o-futuro.webp" class="img-fluid" alt="de-volta">
+                            <p class="titulo-filme">De Volta para o Futuro</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/mad-max.webp" alt="mad-max">
+                            <img src="images/mad-max.webp" class="img-fluid" alt="mad-max">
                             <p class="titulo-filme">Mad Max</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/jurrassic-world.webp" alt="jurrassic">
-                            <p class="titulo-filme">Jurrassic World</p>
+                            <img src="images/jurrassic-world.webp" class="img-fluid" alt="jurassic-world">
+                            <p class="titulo-filme">Jurassic World</p>
                         </div>
                         <div class="card-filme">
-                            <img src="images/jogador-n-1.webp" alt="jogador">
-                            <p class="titulo-filme">Jogador N° 1</p>
+                            <img src="images/jogador-n-1.webp" class="img-fluid" alt="jogador-n1">
+                            <p class="titulo-filme">Jogador N°1</p>
                         </div>
                     </div>
+                </section>
+                <footer class="mt-5 p-2" class="pe">
+                    <nav class="social d-flex justify-content-center gap-4 w-100">
+                         <a href="https://github.com/GuiMeirelesK" target="_blank" class="social_media">GitHub</a>
+                         <a href="#" class="social_media">Instagram</a>
+                         <a href="#" class="social_media">LinkedIn</a>
+                    </nav>
+                </footer>
             </section>
-            </section>
-            <aside class="direita">
-                <div class="barra-pesquisa">
-                    <input type="text" placeholder="Pesquisar filme..." class="input-pesquisa">
+            <aside class="direita col-12 col-lg-3 p-4 order-1 order-lg-2">
+                <div class="barra-pesquisa mb-4">
+                    <input type="text" placeholder="Pesquisar filme..." class="input-pesquisa w-100">
                 </div>
-            <button class="botao-genero">Ação</button>
-            <button class="botao-genero">Suspense</button>
-            <button class="botao-genero">Terror</button>
-            <button class="botao-genero">Romance</button>
-            <button class="botao-genero">Comédia</button>
-            <button class="botao-genero">Ficção</button>
-            <button class="botao-genero">Policial</button>
-            <button class="botao-genero">Premiados</button>
-            <button class="botao-genero">Lançamentos</button>
-            <button class="botao-genero">Família</button>
-            <button class="botao-genero">Animações</button>
-            <button class="botao-genero">Esportes</button>
-            <button class="botao-genero">Séries</button>
+                <div class="d-grid gap-2">
+                    <button class="botao-genero">Ação</button>
+                    <button class="botao-genero">Suspense</button>
+                    <button class="botao-genero">Terror</button>
+                    <button class="botao-genero">Comédia</button>
+                    <button class="botao-genero">Romance</button>
+                    <button class="botao-genero">Ficção Cientifica</button>
+                </div>
             </aside>
-        <footer class="pe">
-           <nav class="social">
-                <a href="https://github.com/GuiMeirelesK" target="_blank" class="social_media">GitHub</a>
-                <a href="https://instagram.com/seu-perfil" target="_blank" class="social_media">Instagram</a>
-                <a href="https://linkedin.com/in/seu-perfil" target="_blank" class="social_media">LinkedIn</a>
-            </nav>
-        </footer>
-    </section>
+        </div>
+    </main>
 </body>
 </html>

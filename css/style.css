@@ -1,77 +1,53 @@
-.esquerda{
-    overflow-y: auto;
-    flex:3;
-}
-.fileira-genero{
-    margin-top: -10px;
-    margin-bottom: 15px;
-    padding: 10px;
-    box-shadow: 10px 10px 20px rgba(2, 24, 38, 0.8);
-}
-.titulo-genero{
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    font-family: "Changa One", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: italic;
-    color: #FFFFFF;
-}
-.titulo-filme{
-    font-size: 1.0rem;
-    font-family:"Bungee", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: #CFD8DC;
-}
-.container-filmes{
-    display: flex;
-    overflow-x: auto;
-    gap: 15px;
-    padding-bottom: 10px;
-    scroll-behavior: smooth;
-}
-.container-filmes::-webkit-scrollbar-thumb{
-    background: #555;
+.fileira-genero {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: rgba(0,0,0,0.2);
     border-radius: 10px;
 }
-.card-filme{
-    flex:0 0 280px;
-    text-align: center;
-    padding-inline-end: 100px;
-    padding-top: 30px;
-    padding-left: 10px;
+
+.container-filmes {
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
 }
-.card-filme img{
-    height: 135px;
+
+.card-filme {
+    flex: 0 0 200px;
+    text-align: center;
+}
+
+.card-filme img {
+    width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
-    object-position: center;
-    width: 100%;
     border-radius: 8px;
-    transition: 0.4s;
     border: 2px solid #7C838A;
-    box-shadow: 10px 10px 20px rgba(2, 24, 38, 0.8);
+    transition: 0.4s;
+}
 
+.card-filme img:hover {
+    transform: scale(1.05);
+    border-color: #0F8C8C;
 }
-.card-filme img:hover{
-    height: 140px;
-    transform:scale(1.10);
-    border-radius: 8px;
-    border: 3px solid rgba(15, 140, 140, 0.3);
-    box-shadow: 10px 10px 20px rgba(2, 24, 38, 0.8);
+
+.titulo-filme {
+    margin-top: 10px;
+    font-family: "Bungee", sans-serif;
+    font-size: 0.9rem;
+    color: #CFD8DC;
 }
-::-webkit-scrollbar {
+.titulo-genero{
+    color: #CFD8DC;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+::-webkit-scrollbar{
+    background-color: transparent;
     width: 8px;
     height: 8px;
 }
-::-webkit-scrollbar-track {
-    background: top;
+::-webkit-scrollbar-thumb{
+    background-color: #7C838A;
+    border-radius: 12px;
 }
-::-webkit-scrollbar-thumb {
-    background: rgba(12, 9, 9, 0.1);
-    border-radius: 10px;
-}
-
-

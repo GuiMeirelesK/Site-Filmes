@@ -1,58 +1,40 @@
-
-.cabecalho{
-    background-size: cover;
+.cabecalho {
     width: 100%;
-    height: 140px;
-    display: flex;
-    justify-content: space-between;
+    height: 100px;
     border-bottom: 2px solid #025959;
-    background: #012840;
-    background: linear-gradient(90deg, rgba(1, 40, 64, 1) 0%, rgba(2, 24, 38, 1) 60%, rgba(2, 24, 38, 1) 0%, rgba(2, 24, 38, 1) 100%);
+    background: linear-gradient(90deg, rgba(1, 40, 64, 1) 0%, rgba(2, 24, 38, 1) 60%);
+    z-index: 1030;
 }
-.texto_logo{
-    font-size: 6rem;
+
+.texto_logo {
+    font-size: clamp(2rem, 5vw, 4rem); 
     color: transparent; 
     background: linear-gradient(90deg, #FFFFFF, #CFD8DC); 
     -webkit-background-clip: text;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-    margin: 20px;
     font-family: "Bitcount Grid Double", system-ui;
-    font-optical-sizing: auto;
     font-weight: 385;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0,
-      "CRSV" 0.5,
-      "ELSH" 0,
-     "ELXP" 0;
 }
 
-.menu{
-    display: flex;
-    list-style: none;
-    width: 100px;
-    height: 50px;
-    padding: 20px;
-    margin-right: 220px;
-    margin-top: 40px;
-    gap: 30px;
-    font-size: 1.0rem;
-    color: #FFFFFF;
-}
-nav a{
-    font-family:"Bungee", sans-serif;
+.menu a {
+    font-family: "Bungee", sans-serif;
     text-decoration: none;
     color: #FFFFFF;
+    transition: 0.3s;
 }
-nav a:hover{
-    text-decoration: underline; 
-    color: #7C838A;
-}
-.material-symbols-outlined{
-    color: #FFFFFF;
+.material-symbols-outlined {
     cursor: pointer;
+    color: #FFFFFF;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
 .material-symbols-outlined:hover{
-    color: #7C838A;;
+    color: #7C838A;
 }
 
+.menu a:hover {
+    color: #7C838A;
+}

@@ -10,30 +10,37 @@
     background: linear-gradient(90deg, rgba(1, 40, 64, 1) 0%, rgba(2, 24, 38, 1) 60%, rgba(2, 24, 38, 1) 0%, rgba(2, 24, 38, 1) 100%);
 }
 .texto_logo{
-    font-family: 'Sua-Fonte-Serif', serif;
-    font-size: 4rem;
-    font-weight: bold;
+    font-size: 6rem;
     color: transparent; 
     background: linear-gradient(90deg, #FFFFFF, #CFD8DC); 
     -webkit-background-clip: text;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-    margin-bottom: 20px;
-    margin: 30px;
-    margin-top: 40px;
+    margin: 20px;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 385;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0.5,
+      "ELSH" 0,
+     "ELXP" 0;
 }
+
 .menu{
     display: flex;
     list-style: none;
     width: 100px;
     height: 50px;
     padding: 20px;
-    margin-right: 210px;
+    margin-right: 220px;
     margin-top: 40px;
-    gap: 35px;
-    font-size: 1.2rem;
+    gap: 30px;
+    font-size: 1.0rem;
     color: #FFFFFF;
 }
 nav a{
+    font-family:"Bungee", sans-serif;
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -48,3 +55,4 @@ nav a:hover{
 .material-symbols-outlined:hover{
     color: #7C838A;;
 }
+

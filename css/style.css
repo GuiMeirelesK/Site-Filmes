@@ -28,6 +28,7 @@
 .card-filme img:hover {
     transform: scale(1.05);
     border-color: #0F8C8C;
+    cursor: pointer;
 }
 
 .titulo-filme {

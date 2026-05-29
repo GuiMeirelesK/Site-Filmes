@@ -1,0 +1,105 @@
+/* ==========================================
+   NEXTFILM - Estilização da Página de Detalhes
+   ========================================== */
+
+/* Ajuste fino no cabeçalho para combinar com o layout */
+.cabecalho {
+    background-color: #012840;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.texto_logo {
+    font-family: "Bungee", sans-serif;
+    color: #0F8C8C !important;
+    text-shadow: 0 0 10px rgba(15, 140, 140, 0.3);
+}
+
+/* Botão de voltar customizado */
+.btn-voltar {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    border-color: #7C838A !important;
+    color: #CFD8DC !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-voltar:hover {
+    background-color: #0F8C8C !important;
+    border-color: #0F8C8C !important;
+    color: #ffffff !important;
+    transform: translateX(-5px);
+    box-shadow: 0 0 15px rgba(15, 140, 140, 0.4);
+}
+
+/* Card principal em Glassmorphism (Transparência + Blur) */
+.card-detalhes {
+    background: rgba(0, 0, 0, 0.45) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(124, 131, 138, 0.25) !important;
+    border-radius: 16px !important;
+    padding: 35px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Estilização da Capa/Poster */
+.capa-filme-detalhe {
+    border: 3px solid #7C838A;
+    border-radius: 12px;
+    transition: transform 0.4s ease, border-color 0.4s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7) !important;
+}
+
+.capa-filme-detalhe:hover {
+    transform: scale(1.03);
+    border-color: #0F8C8C;
+}
+
+/* Badge do Gênero combinando com a fonte titulo-genero */
+.badge-genero {
+    font-family: "Changa One", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    background-color: #0F8C8C !important;
+    color: #ffffff !important;
+    padding: 8px 16px !important;
+    letter-spacing: 0.5px;
+    border-radius: 6px;
+}
+
+/* Título Principal */
+.titulo-filme-detalhe {
+    font-family: "Bungee", sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    letter-spacing: 1px;
+}
+
+/* Seção de Meta Informações (Estrelas, Ano, etc.) */
+.info-meta {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.05rem;
+}
+
+.info-meta .separador {
+    color: #7C838A;
+}
+
+.stream-link {
+    color: #0F8C8C !important;
+    font-weight: 700;
+}
+
+/* Bloco da Sinopse */
+.sinopse-titulo {
+    font-family: "Changa One", sans-serif;
+    color: #CFD8DC;
+    letter-spacing: 0.5px;
+}
+
+.sinopse-texto {
+    font-family: "Nunito", sans-serif;
+    color: #CFD8DC;
+    font-weight: 300;
+    line-height: 1.8;
+}
